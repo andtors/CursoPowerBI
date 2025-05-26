@@ -1,0 +1,15 @@
+Ao importamos uma nova base para o Power BI, é necessário ajustar seus dados de coluna e células antes;
+Algumas alterações já são feitas automaticamente pelo programa, porém outras não;
+
+No painel de Config. Consulta podemos ver todas as alterações feitas pelo usuário ou pelo programa;
+Caso o painel não esteja aparecendo basta ir em Exibição > Config. Consulta;
+
+Caso o programa não reconheça o cabeçalho, basta clicar na cédula a ser o cabeçalho e escolher "Usar a primeira Linha como Cabeçalho na guia "Transformar";
+
+Semelhante ao excel podemos fazer diversas alterações nas colunas, como remover, editar, alterar ordem, agrupar e etc...;
+
+Destaque para "Remover Linhas" na guia "Reduzir Linhas" onde podemos remover linhas duplicadas, brancas e etc...;
+
+Fechar e aplicar salvam a configuração atual, se precisarmos alterar novamente basta clicar em "Transformar Dados" na guia de "Consultas";
+
+Podemos transformar dados de diversos arquivos em um mesmo arquivo;

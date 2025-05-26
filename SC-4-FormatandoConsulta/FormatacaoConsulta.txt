@@ -1,0 +1,3 @@
+Formatação de Texto
+	- Em transformar dados, na coluna selecionada, podemos alterar a coluna(aba "Transformar") ou criar uma nova (aba "Adicionar Coluna")
+	- Algumas das alterações possíveis são: Substituir Valores, Transformar todo texto em Maiusculo ou Minusculo, Dividir o texto em novas colunas conforme o delimitador (Extrair ou Dividir Coluna)
