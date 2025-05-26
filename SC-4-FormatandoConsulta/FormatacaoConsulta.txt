@@ -1,3 +1,16 @@
 Formatação de Texto
 	- Em transformar dados, na coluna selecionada, podemos alterar a coluna(aba "Transformar") ou criar uma nova (aba "Adicionar Coluna")
-	- Algumas das alterações possíveis são: Substituir Valores, Transformar todo texto em Maiusculo ou Minusculo, Dividir o texto em novas colunas conforme o delimitador (Extrair ou Dividir Coluna)
+	- Algumas das alterações possíveis são: Substituir Valores, Transformar todo texto em Maiúsculo ou Minúsculo, Dividir o texto em novas colunas conforme o delimitador (Extrair ou Dividir Coluna)
+
+Formatação de número
+	- Alguma das alterações possíveis são: Somar(retorna apenas um dado da soma total da coluna), multiplicar, subtrair e dividir de um valor fixo, somar, multiplicar e dividir de outra coluna na guia Número -> Padrão e arredondar para cima ou para baixo também na guia Número -> Arredondamento
+
+Formatação de data
+	- Sempre que for alterar uma coluna de data, usar o "adicionar coluna" para não perder o valor original
+	- É possível extrair dia, mês e ano na guia "Data e Hora" -> Data o mesmo para Hora e Duração de varias formas, como dia da semana, dia do ano, nome do dia, semana do ano, idade e entre outros.
+	- É possível criar colunas com condicionais, filtrando entre valores, datas, igual a ou posterior, se a condição a verdadeira ou falsa em guia Geral -> Coluna condicional
+	- Assim como em Banco de Dados toda tabela, precisa de um ID, indo em adicionar coluna -> Geral -> Coluna de índice, podemos criar uma coluna de ID's únicos
+	- Exemplo de criação de um coluna personalizada mesclando nome e sobrenome usando formula do excel
+	[Primeiro Nome] & " " & [Sobrenome]
+		 Nome da coluna em []
+	
