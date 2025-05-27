@@ -1,0 +1,16 @@
+Ferramenta de dados 
+	Agrupar/Mesclar Colunas/Tabelas
+		- É possível agrupar (group by) informações de uma coluna, por exemplo, a partir do ID de uma área podemos saber a quantidade de funcionários
+		- guia Transformar -> Agrupar por
+
+		- Também é possível mesclar consultas, fazendo que uma tabela traga informações de outra tabela, semelhante ao relacionamento de tabelas num BD e um procv no excel
+		- guia Combinar -> Mesclar Consultas
+		- Lembrando que devemos fazer sempre na tabela que queremos que puxe a informação de outra tabela
+		- Escolhemos as colunas com informações semelhantes nas duas tabelas
+		- Feito o relacionamento, podemos escolher quais colunas devem aparecer
+
+	Append ou Acrescentar consultas
+		- Podemos juntar informações de 2 ou mais tabelas que são semelhantes
+		- guia Combinar -> Acrescentar Consultas
+		- Colunas que existem em apenas uma tabela irão aparecer, porém linhas que não continham dados dela apareceram como null
+		- Podemos importar tabelas de 2 ou mais tabelas de um vez, Nova Fonte/Transformar Dados -> Pastas -> Selecionar pasta com 2 ou mais tabela
