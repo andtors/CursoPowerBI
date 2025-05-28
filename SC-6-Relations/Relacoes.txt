@@ -1,0 +1,13 @@
+Relações 
+	Tabela Calendário
+		- É uma tabela padronizada em que vamos utilizar para criar nossos gráficos, é necessário usar uma formula para a criação dela: 
+	= List.Dates(#date(1900,1,1), Number.From(DateTime.LocalNow())- Number.From(#date(1900,1,1)) ,#duration(1,0,0,0))
+	
+	- Podemos criar as relações entre tabelas na parte de Exibição de modelo arrastando uma coluna de uma tabela para outra de outra tabela
+
+Visualização
+	- Na parte de visualização podemos escolhero o gráfico ou tabela para representar nossos dados
+	- Ao selecionar a visualização podemos escolher as informações a serem preenchidas
+	Linhas 
+	Colunas  
+	Valores - Podemos escolher como queremos que os valores irão aparecer
