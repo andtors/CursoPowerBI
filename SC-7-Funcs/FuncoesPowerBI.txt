@@ -1,0 +1,6 @@
+Funções no Power BI
+	- No Power BI, assim como no excel, possui uma linguagem usada para criarmos manualmente colunas
+	- Ao criarmos uma nova coluna, na barra acima podemos digitar {Nome coluna} = /* Lógica que iremos fazer */  Ex:
+	
+	TotalSalario = {tabela que está vindo a coluna}[Salario Base] + {tabela que está vindo a coluna}[Beneficios]
+	Tem folga? = IF({tabela}[Horas Extras] > 8, "Sim", "Não")
