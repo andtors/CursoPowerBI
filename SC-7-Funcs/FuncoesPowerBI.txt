@@ -4,3 +4,4 @@ Funções no Power BI
 	
 	TotalSalario = {tabela que está vindo a coluna}[Salario Base] + {tabela que está vindo a coluna}[Beneficios]
 	Tem folga? = IF({tabela}[Horas Extras] > 8, "Sim", "Não")
+	- Em casos de IF trocamos o ; por ,
