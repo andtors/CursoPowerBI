@@ -1,0 +1,22 @@
+Principais formulas de DAX
+	- IF com AND e OR
+		IF(HORAS EXTRAS>=8 && DIAS TRABALHADOS >= 264, "Sim", "Não")
+		IF(HORAS EXTRAS>=8 || DIAS TRABALHADOS >= 264, "Sim", "Não")
+
+	- IF com mais de uma condição
+		IF(SALARIO>10000, "ALTA RENDA",IF(SALARIO>1200, "RENDA MÉDIA", "BAIXA RENDA"))
+	
+	- Search acha a posição do caractere na célula
+		SEPARADOR = SEARCH("-", CODFuncionario)
+	
+	- LEFT e Right traz as caracteres conforme número inputado
+	- MID traz o que estiver entre o número inputado
+		MID(CODFuncionario, SEPARADOR + 1, 100)
+
+	- Formulas de datas como .[ANO] .[MES] para pegar ano, dia ou mes de uma célula de data
+	- DATEDIFF para comparar duas datas
+ 		Idade = DATEDIFF(Data, TODAY(), YEAR)
+	- EOMONTH para pegar o ultimo dia do mês
+		Fim do Mes = EOMONTH(Data, 0)	
+	
+	- RELATED função que faz a relação entre tabelas relacionadas
