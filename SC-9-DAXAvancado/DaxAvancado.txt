@@ -1,0 +1,2 @@
+Criando medidas com DAX
+	- É possível criar medidas, não são colunas, porém são utilizado na hora da visualização das informações das tabelas
